@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/java.js"></script>
+    <title>Animales fantasticos</title>
+</head>
+
+<body>
+    <!--Proximamente la  galeria-->
+    <section class="container">
+        <section class="title">
+            <span class="primary">
+                <h1>
+                    Animales fantasticos
+                </h1>
+            </span>
+            <span class="secondary">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe rem dolorum est molestiae nisi
+                consequatur temporibus doloremque reprehenderit. Sequi voluptatibus labore ab deleniti possimus minima
+                alias ipsum id impedit vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                facilis minima, suscipit dolores sequi molestias iure similique expedita excepturi quibusdam veritatis
+                reiciendis nesciunt eveniet. Inventore at quod eius sapiente temporibus! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Adipisci nulla deserunt deleniti quibusdam atque at consectetur saepe
+                vitae pariatur eius error, voluptatem, itaque veniam dolor! Obcaecati vitae sunt odio nulla!
+            </span>
+        </section>
+        <!--Siguen las cartitas:-->
+        <section class="gallery-wrapper">
+            <figure class="gallery-item">
+                <img src="img/Krystallo.jpg" class="item-image">
+                <figcaption class="item-description">
+                    <h2 class="name">Krystallo</h2>
+                    <span class="role">Poder de hielo y agua </span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/Lampros.jpg" class="item-image">
+                <figcaption class="item-description">
+                    <h2 class="name">Lampros</h2>
+                    <span class="role">Poder de fuego y cadenas de la muerte </span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/Aeraki.jpg" class="item-image">
+                <figcaption class="item-description">
+                    <h2 class="name">Aeraki</h2>
+                    <span class="role">Poder de viento </span>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <section id="seleccion">
+        <input type="radio" name="Animales" id="Krystallo">
+        <label for="Krystallo">Krystallo</label>
+
+        <input type="radio" name="Animales" id="Lampros">
+        <label for="Lampros">Lampros</label>
+
+        <input type="radio" name="Animales" id="Aeraki">
+        <label for="Aeraki">Aeraki</label>
+
+        <button id="selecanimal">Seleccionar</button>
+    </section>
+
+    <section id="Poder">
+        <h2>Elija su poder</h2>
+        <p>Tu animal fantastico <span id="AnimalJugador"></span>tiene 3 almas</p>
+        <p>El animal fantastico del oponente es <span id="animalRival"></span>tiene 2 almas</p>
+    </section>
+
+    <section>
+        <button id="Hielo">❄ Hielo</button>
+        <button id="Fuego">🔥 Fuego</button>
+        <button id="Aire">🌪 Aire</button>
+    </section>
+
+    <section id="mensaje">
+        <p>Tu animal ataco con HIELO, el animal del oponente ataco con FUEGO</p>
+    </section>
+
+</body>
+
+</html>
